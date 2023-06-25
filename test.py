@@ -7,7 +7,7 @@ def test_translation():
     key = "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"
 
     # Create an instance of the ChatGPT class
-    chatbot = ChatGPT(key)
+    chatbot = ChatGPTAPI(key)
 
     # Test the translation function
     result = chatbot.translate("Hello, how are you?")
