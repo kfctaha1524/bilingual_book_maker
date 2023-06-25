@@ -20,5 +20,5 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi 
       - name: Lint with Pylint
         run: |
-          pylint book-maker/utils.py
+          pylint book_maker/utils.py
   
