@@ -1,3 +1,13 @@
+#pylint: disable=C0301
+#pylint: disable=C0114
+#pylint: disable=E0401
+#pylint: disable=C0116
+#pylint: disable=C0116
+#pylint: disable=C0116
+#pylint: disable=W0105
+#pylint: disable=R1705
+#pylint --disable-msg=W0012 utils.py
+# pylint: disable=R1735
 import tiktoken
 
 # Borrowed from : https://github.com/openai/whisper
