@@ -1,7 +1,7 @@
 import pytest
 
 
-from book_maker.translator.chatgptapi_translator import ChatGPT
+from book_maker.translator.chatgptapi_translator import ChatGPTAPI
 
 def test_translation():
     key = "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"
